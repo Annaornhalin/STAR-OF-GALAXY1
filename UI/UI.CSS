@@ -1,0 +1,121 @@
+body {
+    background-image: url("./image/stars-space-black-darkness.jpg");
+    font-family: "Roboto";
+}
+
+.interfaceContainer{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.interfaceExitBtnContainer{
+    position: absolute;
+    padding: 15px;
+    left: 20px;
+    top: 30px;
+    background-color: #C4C4C4;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interfaceExitBtn{
+  width: 50px;
+  height: 50px;
+}
+
+.topicLine{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    align-items: center;
+}
+
+.opacityBtn{
+    background: rgba(214, 168, 235, 0.26);
+    /* opacity: 0.6; */
+    padding: 20px 50px;
+    font-size: 40px;
+    color: #76E8E1;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
+.characterImg{
+    width: 150px;
+    height: 150px;
+}
+
+.footerContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.linkContainer{
+  background-color: #C4C4C4;
+  border-radius: 100%;
+}
+
+.linkIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.table1{
+    
+    color:#435be4;
+    background-color: #ddbbec;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 15px;
+}
+  
+
+  .flex-container{
+    color:#435be4;
+    background-color: #ddbbec;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 15px;
+   
+  }
+.material-icons  {
+    size: 400px;
+    font: size 100 px;
+    color:rgb(117, 108, 108);
+}
+.icon-bar {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }

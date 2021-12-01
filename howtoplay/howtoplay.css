@@ -1,0 +1,14 @@
+body{
+    background-color: #000000;
+    }
+    h1 {
+      background-size: cover;
+      font-size:100px;
+      background-color:#bd8adb;
+      border-radius:100px;
+      font-family:Verdana;
+      min-height: 200px;
+      position: center;
+      width:100%;
+      text-align: center;
+    }
